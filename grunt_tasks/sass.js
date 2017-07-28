@@ -10,20 +10,19 @@ SASS Grunt tasks
  			dest: config.cssDir + 'style.css'
  			}
  		},
- 		csslint: {
- 			strict: {
- 				options: {
- 					important: 2
- 				},
- 				src: "<%= sass.dist.dest %>"
- 			}
- 		},
+ 		// csslint: {
+ 		// 	strict: {
+ 		// 		options: {
+ 		// 			important: 1
+ 		// 		},
+ 		// 		src: config.scssDir + 'style.scss'
+ 		// 	}
+ 		// },
  		watch: {
  			sass: {
  				files: config.scssDir + "**/*.scss",
  			  tasks: [
- 			  	"sass",
- 			  	"csslint"
+ 			  	"sass"
  			  ]
  			}
  		}

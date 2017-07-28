@@ -16,7 +16,7 @@ module.exports = function(grunt) {
     'uglify',
     'concat',
     'jshint',
-    'csslint',
+    // 'csslint',
     'watch'
   ]);
 };
