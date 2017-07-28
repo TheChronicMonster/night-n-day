@@ -1,0 +1,33 @@
+{
+  "name": "night-n-day",
+  "version": "1.0.0",
+  "description": "night and day jquery app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheChronicMonster/night-n-day.git"
+  },
+  "keywords": [
+    "night",
+    "day",
+    "jQuery"
+  ],
+  "author": "JP Miller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheChronicMonster/night-n-day/issues"
+  },
+  "homepage": "https://github.com/TheChronicMonster/night-n-day#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}
